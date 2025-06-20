@@ -1,4 +1,4 @@
-const VIRUSTOTAL_API_KEY = "0c153b66432dba7fc88a710793f895e1e59e8de27950327fa4528de6127a73ca";
+const VIRUSTOTAL_API_KEY = "YOUR_API_KEY";
 
 async function checkUrlWithVirusTotal(url) {
   const urlId = btoa(url).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
